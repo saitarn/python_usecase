@@ -15,12 +15,12 @@ fruits = []  # we do not have dragons yet
 What's next? The first thing that comes to mind is, of course, to add new elements to the list.
 
 To add a new element to the end of an existing list, you need to invoke list.append(element) function. It takes only a single argument, so this way you can add only one element to the list at a time.
-```scala
+```python
 fruits.append('Mango')
 fruits.append('Orange')
 fruits.append('Coconut')
 ```
 Now you have exactly three dragons, moreover, they are ordered the way you added them:
-```
+```python
 print(fruits)  # ['Mango', 'Orange', 'Coconut']
 ```
